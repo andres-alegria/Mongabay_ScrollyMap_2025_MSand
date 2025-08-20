@@ -6,7 +6,7 @@ export default {
   showMarkers: false,
   theme: 'mongabay',
   intro: {
-    title: 'M-Sand',
+    title: 'Short title',
     subtitle:
       'When one ban triggers another crisis: how Kerala’s river sand mining ban is leading to more quarrying in the Western Ghats.',
     date: 'Sept. 05 2025',
