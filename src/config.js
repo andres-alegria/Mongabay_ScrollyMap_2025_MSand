@@ -46,8 +46,12 @@ export default {
       description: "The construction industry is Kerala’s largest consumer of river sand. After the ban on river sand mining, miners turned to the hills of the Western Ghats, crushing quarried hard rock to produce manufactured sand, also known as <b>m-sand</b>.",
        legend: [
         {
-          title: 'XXX',
-          fromLayer: 'Pipelines existing',
+          title: 'Kerala state',
+          fromLayer: 'kerala-solid',
+        },
+        {
+          title: 'Western Ghats',
+          fromLayer: 'Western Ghats Line',
         },
       ],
       location: {
@@ -79,12 +83,8 @@ export default {
       description: "72 legal quarries lie within 10 km of 20 protected areas in the Western Ghats, one of the world’s most biodiverse regions. Most expanded after the ban.",
              legend: [
         {
-          title: 'Existing pipelines',
-          fromLayer: 'Pipelines existing',
-        },
-             {
-          title: 'Under construction or proposed pipelines',
-          fromLayer: 'Pipelines under construction',
+          title: 'Legal sand quarries',
+          fromLayer: 'kerela_quarries_0',
         },
          ],
       sources: 'Ashok L, et al. (2025)',
@@ -117,10 +117,11 @@ export default {
       description: "Malabar Wildlife Sanctuary, 2015 (before the ban).",
              legend: [
         {
-          title: 'Critical areas based on the Global Safety Net Initiative (GSN)',
-          color: '#006a54',
+          title: 'Legal sand quarries',
+          fromLayer: 'kerela_quarries_0',
         },
          ],
+      sources: 'Ashok L, et al. (2025)',
         location: {
         center: [75.90, 11.60],
         zoom: 12.5,
@@ -150,10 +151,11 @@ export default {
       description: "Malabar Wildlife Sanctuary, 2016 (after the ban).",
              legend: [
         {
-          title: 'Protected areas affected by EACOP',
-          color: '#bdeaaf',
+          title: 'Legal sand quarries',
+          fromLayer: 'kerela_quarries_0',
         },
          ],
+      sources: 'Ashok L, et al. (2025)',
       location: {
         center: [75.90, 11.60],
         zoom: 12.5,
@@ -183,10 +185,11 @@ export default {
       description: "Malabar Wildlife Sanctuary has the highest number of quarries —15— within its 10 km buffer.",
              legend: [
         {
-          title: 'Murchison Falls National Park',
-            border: '#c3a7c5',
+          title: 'Legal sand quarries',
+          fromLayer: 'kerela_quarries_0',
         },
          ],
+      sources: 'Ashok L, et al. (2025)',
      location: {
         center: [75.90, 11.60],
         zoom: 12.5,
@@ -215,11 +218,12 @@ export default {
       title: ' ',
       description: "The Silent Valley National Park, home to the endangered lion-tailed macaque, has three quarries just four kilometres from its boundary.",
            legend: [
-        {
-          title: 'Tilenga Feeder Pipeline Trajectory',
-          icon: 'pipeline',
+      {
+          title: 'Legal sand quarries',
+          fromLayer: 'kerela_quarries_0',
         },
          ],
+      sources: 'Ashok L, et al. (2025)',
       location: {
         center: [76.45, 11.35],
         zoom: 12.5,
@@ -249,6 +253,13 @@ export default {
       hidden: false,
       title: ' ',
       description: "Some protected areas, such as the Aralam Wildlife Sanctuary, have quarries one kilometer from their boundary. Blasting increases noise and dust pollution, posing risks to both wildlife and humans.",
+      legend: [
+      {
+          title: 'Legal sand quarries',
+          fromLayer: 'kerela_quarries_0',
+        },
+         ],
+      sources: 'Ashok L, et al. (2025)',
       location: {
         center: [75.84, 11.94],
         zoom: 12.5,
@@ -274,6 +285,13 @@ export default {
       hidden: false,
       title: ' ',
       description: "2011: Quarry footprint.",
+       legend: [
+      {
+          title: 'Legal sand quarries',
+          fromLayer: 'kerela_quarries_0',
+        },
+         ],
+      sources: 'Ashok L, et al. (2025)',
      location: {
         center: [75.84, 11.94],
         zoom: 12.5,
@@ -300,6 +318,13 @@ export default {
       hidden: false,
       title: ' ',
       description: "2016: After the ban, sites expanded.",
+      legend: [
+      {
+          title: 'Legal sand quarries',
+          fromLayer: 'kerela_quarries_0',
+        },
+         ],
+      sources: 'Ashok L, et al. (2025)',
      location: {
         center: [75.84, 11.94],
         zoom: 12.5,
@@ -326,6 +351,13 @@ export default {
       hidden: false,
       title: ' ',
       description: "2021: 90% of quarries had grown by more than 50%.",
+        legend: [
+      {
+          title: 'Legal sand quarries',
+          fromLayer: 'kerela_quarries_0',
+        },
+         ],
+      sources: 'Ashok L, et al. (2025)',
       location: {
         center: [75.84, 11.94],
         zoom: 12.5,
