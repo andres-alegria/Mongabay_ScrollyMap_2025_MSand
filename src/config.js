@@ -46,12 +46,12 @@ export default {
       description: "The construction industry is Kerala’s largest consumer of river sand. After the ban on river sand mining, miners turned to the hills of the Western Ghats, crushing quarried hard rock to produce manufactured sand, also known as <b>m-sand</b>.",
        legend: [
         {
-          title: 'Kerala state',
-          fromLayer: 'kerala-solid',
+          title: 'Western Ghats',
+          fromLayer: 'Western Ghats Solid',
         },
         {
-          title: 'Western Ghats',
-          fromLayer: 'Western Ghats Line',
+          title: 'Kerala state',
+          fromLayer: 'kerala-solid',
         },
       ],
       location: {
@@ -60,6 +60,14 @@ export default {
         pitch: 0.0,
         bearing: 0,
       },
+       images: [
+        {
+          src: 'Photo1.jpg',
+          position: 'top',
+          title: 'Representational stone quarry',
+          author: 'Superbmust',
+        },
+      ],
       mapAnimation: 'easeTo',
       rotateAnimation: false,
       onChapterEnter: [
@@ -94,7 +102,15 @@ export default {
         pitch: 62.0,
         bearing: 60,
       },
-      mapAnimation: 'easeTo',
+       images: [
+        {
+          src: 'Photo2.jpg',
+          position: 'top',
+          title: 'Mountains of Western Ghats',
+          author: 'V.S. Iyer',
+        },
+           ],
+        mapAnimation: 'easeTo',
       rotateAnimation: false,
       onChapterEnter: [
                   {
@@ -124,7 +140,7 @@ export default {
       sources: 'Ashok L, et al. (2025)',
         location: {
         center: [75.90, 11.60],
-        zoom: 11.25,
+        zoom: 10.25,
         pitch: 70.0,
         bearing: 60,
       },
@@ -158,7 +174,7 @@ export default {
       sources: 'Ashok L, et al. (2025)',
       location: {
         center: [75.90, 11.60],
-        zoom: 11.25,
+        zoom: 10.25,
         pitch: 70.0,
         bearing: 60,
       },
@@ -192,7 +208,7 @@ export default {
       sources: 'Ashok L, et al. (2025)',
      location: {
         center: [75.90, 11.60],
-        zoom: 11.25,
+        zoom: 10.25,
         pitch: 70.0,
         bearing: 60,
       },
@@ -226,10 +242,18 @@ export default {
       sources: 'Ashok L, et al. (2025)',
       location: {
         center: [76.4542, 11.1527],
-        zoom: 11.25,
+        zoom: 10.25,
         pitch: 70.0,
         bearing: 60,
       },
+       images: [
+        {
+          src: 'Photo3a.jpg',
+          position: 'top',
+          title: 'Lion-tailed macaque',
+          author: 'S.J. Koottanad',
+        },
+           ],
       mapAnimation: 'easeTo',
       rotateAnimation: false,
       onChapterEnter: [
@@ -262,10 +286,18 @@ export default {
       sources: 'Ashok L, et al. (2025)',
       location: {
         center: [75.84, 11.94],
-         zoom: 11.25,
+         zoom: 10.25,
         pitch: 70.0,
         bearing: 60,
       },
+        images: [
+        {
+          src: 'Photo4.jpg',
+          position: 'top',
+          title: 'Aralam Wildlife Sanctuary',
+          author: 'Manojk',
+        },
+           ],
       mapAnimation: 'easeTo',
       rotateAnimation: false,
       onChapterEnter: [
@@ -294,7 +326,7 @@ export default {
       sources: 'Ashok L, et al. (2025)',
      location: {
         center: [75.84, 11.94],
-        zoom: 11.25,
+        zoom: 10.25,
         pitch: 70.0,
         bearing: 60,
       },
@@ -327,7 +359,7 @@ export default {
       sources: 'Ashok L, et al. (2025)',
      location: {
         center: [75.84, 11.94],
-        zoom: 11.25,
+        zoom: 10.25,
         pitch: 70.0,
         bearing: 60,
       },
@@ -360,7 +392,7 @@ export default {
       sources: 'Ashok L, et al. (2025)',
       location: {
         center: [75.84, 11.94],
-        zoom: 11.25,
+        zoom: 10.25,
         pitch: 70.0,
         bearing: 60,
       },
