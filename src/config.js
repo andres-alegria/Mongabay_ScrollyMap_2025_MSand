@@ -71,10 +71,21 @@ export default {
       mapAnimation: 'easeTo',
       rotateAnimation: false,
       onChapterEnter: [
+         {
+          layer: 'kerela_quarries_2021',
+          opacity: 0,
+        },
+          {
+          layer: 'kerela_quarries_2015Before',
+          opacity: 0,
+        },
+                  {
+          layer: 'kerela_quarries_2016After',
+          opacity: 0,
+        },
       ],
         onChapterExit: [
-      ],
-    
+        ],
     },
 
 
@@ -88,7 +99,7 @@ export default {
              legend: [
         {
           title: 'Legal sand quarries',
-          fromLayer: 'kerela_quarries_0',
+          fromLayer: 'kerela_quarries_2015Before',
         },
         {
           title: 'Protected Areas',
@@ -113,6 +124,10 @@ export default {
         mapAnimation: 'easeTo',
       rotateAnimation: false,
       onChapterEnter: [
+            {
+          layer: 'kerela_quarries_2021',
+          opacity: 1,
+        },
       ],
         onChapterExit: [
       ],
@@ -129,8 +144,8 @@ export default {
       description: "Malabar Wildlife Sanctuary, 2015 (<b>before</b> the ban).",
              legend: [
         {
-          title: 'Legal sand quarries',
-          fromLayer: 'kerela_quarries_0',
+          title: 'Legal sand quarries before 2015',
+          fromLayer: 'kerela_quarries_2015Before',
         },
         {
           title: 'Protected Areas',
@@ -147,8 +162,20 @@ export default {
       mapAnimation: 'easeTo',
       rotateAnimation: false,
       onChapterEnter: [
+                      {
+          layer: 'kerela_quarries_2021',
+          opacity: 0,
+        },
       ],
         onChapterExit: [
+                  {   
+          layer: 'kerela_quarries_2015Before',
+          opacity: 1,
+        },
+                  {
+          layer: 'kerela_quarries_2016After',
+          opacity: 0,
+        },
       ],
     
     },
@@ -163,8 +190,8 @@ export default {
       description: "Malabar Wildlife Sanctuary, 2016 (<b>after</b> the ban).",
              legend: [
         {
-          title: 'Legal sand quarries',
-          fromLayer: 'kerela_quarries_0',
+          title: 'Legal sand quarries after 2015',
+          fromLayer: 'kerela_quarries_2016After',
         },
         {
           title: 'Protected Areas',
@@ -181,8 +208,16 @@ export default {
       mapAnimation: 'easeTo',
       rotateAnimation: false,
       onChapterEnter: [
+                    {   
+          layer: 'kerela_quarries_2015Before',
+          opacity: 0,
+        },
       ],
         onChapterExit: [
+                  {
+          layer: 'kerela_quarries_2016After',
+          opacity: 0,
+        },
       ],
     
     },
@@ -198,7 +233,7 @@ export default {
              legend: [
         {
           title: 'Legal sand quarries',
-          fromLayer: 'kerela_quarries_0',
+          fromLayer: 'kerela_quarries_2016After',
         },
         {
           title: 'Protected Areas',
@@ -232,7 +267,7 @@ export default {
            legend: [
       {
           title: 'Legal sand quarries',
-          fromLayer: 'kerela_quarries_0',
+          fromLayer: 'kerela_quarries_2016After',
         },
         {
           title: 'Protected Areas',
@@ -276,7 +311,7 @@ export default {
       legend: [
       {
           title: 'Legal sand quarries',
-          fromLayer: 'kerela_quarries_0',
+          fromLayer: 'kerela_quarries_2016After',
         },
         {
           title: 'Protected Areas',
@@ -316,7 +351,7 @@ export default {
        legend: [
       {
           title: 'Legal sand quarries',
-          fromLayer: 'kerela_quarries_0',
+          fromLayer: 'kerela_quarries_2016After',
         },
         {
           title: 'Protected Areas',
@@ -349,7 +384,7 @@ export default {
       legend: [
       {
           title: 'Legal sand quarries',
-          fromLayer: 'kerela_quarries_0',
+          fromLayer: 'kerela_quarries_2016After',
         },
         {
           title: 'Protected Areas',
@@ -382,7 +417,7 @@ export default {
         legend: [
       {
           title: 'Legal sand quarries',
-          fromLayer: 'kerela_quarries_0',
+          fromLayer: 'kerela_quarries_2016After',
         },
         {
           title: 'Protected Areas',
