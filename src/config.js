@@ -71,10 +71,6 @@ export default {
       mapAnimation: 'easeTo',
       rotateAnimation: false,
       onChapterEnter: [
-        {
-          layer: 'Pipeline_icons',
-          opacity: 0,
-        },
       ],
         onChapterExit: [
       ],
@@ -117,10 +113,6 @@ export default {
         mapAnimation: 'easeTo',
       rotateAnimation: false,
       onChapterEnter: [
-                  {
-          layer: 'admin-0-boundary-a',
-          opacity: 1,
-        },  
       ],
         onChapterExit: [
       ],
@@ -140,6 +132,10 @@ export default {
           title: 'Legal sand quarries',
           fromLayer: 'kerela_quarries_0',
         },
+        {
+          title: 'Protected Areas',
+          fromLayer: 'Kerela_PAs',
+        },
          ],
       sources: 'Ashok L, et al. (2025)',
         location: {
@@ -151,10 +147,6 @@ export default {
       mapAnimation: 'easeTo',
       rotateAnimation: false,
       onChapterEnter: [
-        {
-          layer: 'GSN-climate-stabilization',
-          opacity: 1,
-        },
       ],
         onChapterExit: [
       ],
@@ -174,6 +166,10 @@ export default {
           title: 'Legal sand quarries',
           fromLayer: 'kerela_quarries_0',
         },
+        {
+          title: 'Protected Areas',
+          fromLayer: 'Kerela_PAs',
+        },
          ],
       sources: 'Ashok L, et al. (2025)',
       location: {
@@ -185,10 +181,6 @@ export default {
       mapAnimation: 'easeTo',
       rotateAnimation: false,
       onChapterEnter: [
-         {
-          layer: 'GSN-climate-stabilization',
-          opacity: 0,
-        },
       ],
         onChapterExit: [
       ],
@@ -208,6 +200,10 @@ export default {
           title: 'Legal sand quarries',
           fromLayer: 'kerela_quarries_0',
         },
+        {
+          title: 'Protected Areas',
+          fromLayer: 'Kerela_PAs',
+        },
          ],
       sources: 'Ashok L, et al. (2025)',
      location: {
@@ -219,10 +215,6 @@ export default {
       mapAnimation: 'easeTo',
       rotateAnimation: false,
       onChapterEnter: [
-                          {
-          layer: 'wdpas-2025 color',
-          opacity: 0,
-        },
       ],
         onChapterExit: [
       ],
@@ -241,6 +233,10 @@ export default {
       {
           title: 'Legal sand quarries',
           fromLayer: 'kerela_quarries_0',
+        },
+        {
+          title: 'Protected Areas',
+          fromLayer: 'Kerela_PAs',
         },
          ],
       sources: 'Ashok L, et al. (2025)',
@@ -261,10 +257,6 @@ export default {
       mapAnimation: 'easeTo',
       rotateAnimation: false,
       onChapterEnter: [
-                          {
-          layer: 'wdpas-2025 color',
-          opacity: 0,
-        },
       ],
         onChapterExit: [
       ],
@@ -286,6 +278,10 @@ export default {
           title: 'Legal sand quarries',
           fromLayer: 'kerela_quarries_0',
         },
+        {
+          title: 'Protected Areas',
+          fromLayer: 'Kerela_PAs',
+        },
          ],
       sources: 'Ashok L, et al. (2025)',
       location: {
@@ -305,10 +301,6 @@ export default {
       mapAnimation: 'easeTo',
       rotateAnimation: false,
       onChapterEnter: [
-        {
-          layer: 'Pipeline_icons',
-          opacity: 0,
-        },
       ],
         onChapterExit: [
       ],
@@ -326,6 +318,10 @@ export default {
           title: 'Legal sand quarries',
           fromLayer: 'kerela_quarries_0',
         },
+        {
+          title: 'Protected Areas',
+          fromLayer: 'Kerela_PAs',
+        },
          ],
       sources: 'Ashok L, et al. (2025)',
      location: {
@@ -337,10 +333,6 @@ export default {
       mapAnimation: 'easeTo',
       rotateAnimation: false,
       onChapterEnter: [
-        {
-          layer: 'Pipeline_icons',
-          opacity: 0,
-        },
       ],
         onChapterExit: [
       ],
@@ -359,6 +351,10 @@ export default {
           title: 'Legal sand quarries',
           fromLayer: 'kerela_quarries_0',
         },
+        {
+          title: 'Protected Areas',
+          fromLayer: 'Kerela_PAs',
+        },
          ],
       sources: 'Ashok L, et al. (2025)',
      location: {
@@ -370,10 +366,6 @@ export default {
       mapAnimation: 'easeTo',
       rotateAnimation: false,
       onChapterEnter: [
-        {
-          layer: 'Pipeline_icons',
-          opacity: 0,
-        },
       ],
         onChapterExit: [
       ],
@@ -392,6 +384,10 @@ export default {
           title: 'Legal sand quarries',
           fromLayer: 'kerela_quarries_0',
         },
+        {
+          title: 'Protected Areas',
+          fromLayer: 'Kerela_PAs',
+        },
          ],
       sources: 'Ashok L, et al. (2025)',
       location: {
@@ -403,10 +399,6 @@ export default {
       mapAnimation: 'easeTo',
       rotateAnimation: false,
       onChapterEnter: [
-        {
-          layer: 'Pipeline_icons',
-          opacity: 0,
-        },
       ],
         onChapterExit: [
       ],
@@ -430,10 +422,6 @@ export default {
       mapAnimation: 'easeTo',
       rotateAnimation: false,
       onChapterEnter: [
-        {
-          layer: 'Pipeline_icons',
-          opacity: 0,
-        },
       ],
         onChapterExit: [
       ],
