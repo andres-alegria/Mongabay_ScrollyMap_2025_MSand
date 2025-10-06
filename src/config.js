@@ -62,7 +62,7 @@ export default {
       },
        images: [
         {
-          src: 'Photo1.jpg',
+          src: 'photo1.jpg',
           position: 'top',
           title: 'Representational stone quarry',
           author: 'Superbmust',
@@ -108,7 +108,7 @@ export default {
       },
        images: [
         {
-          src: 'Photo2.jpg',
+          src: 'photo2.jpg',
           position: 'top',
           title: 'Mountains of Western Ghats',
           author: 'V.S. Iyer',
@@ -252,7 +252,7 @@ export default {
       },
        images: [
         {
-          src: 'Photo3a.jpg',
+          src: 'photo3a.jpg',
           position: 'top',
           title: 'Lion-tailed macaque',
           author: 'S.J. Koottanad',
@@ -296,7 +296,7 @@ export default {
       },
         images: [
         {
-          src: 'Photo4.jpg',
+          src: 'photo4.jpg',
           position: 'top',
           title: 'Aralam Wildlife Sanctuary',
           author: 'Manojk',
