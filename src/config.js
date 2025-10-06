@@ -126,7 +126,7 @@ export default {
       alignment: 'left',
       hidden: false,
       title: ' ',
-      description: "Malabar Wildlife Sanctuary, 2015 (before the ban).",
+      description: "Malabar Wildlife Sanctuary, 2015 (<b>before</b> the ban).",
              legend: [
         {
           title: 'Legal sand quarries',
@@ -160,7 +160,7 @@ export default {
       alignment: 'left',
       hidden: false,
       title: ' ',
-      description: "Malabar Wildlife Sanctuary, 2016 (after the ban).",
+      description: "Malabar Wildlife Sanctuary, 2016 (<b>after</b> the ban).",
              legend: [
         {
           title: 'Legal sand quarries',
