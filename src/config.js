@@ -94,6 +94,10 @@ export default {
           title: 'Legal sand quarries',
           fromLayer: 'kerela_quarries_0',
         },
+        {
+          title: 'Protected Areas',
+          fromLayer: 'Kerela_PAs',
+        },
          ],
       sources: 'Ashok L, et al. (2025)',
  location: {
