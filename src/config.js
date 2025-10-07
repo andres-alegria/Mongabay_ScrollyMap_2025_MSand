@@ -62,7 +62,7 @@ export default {
       },
        images: [
         {
-          src: 'photo1.jpg',
+          src: 'photo1a.jpg',
           position: 'top',
           title: 'Representational stone quarry',
           author: 'Superbmust',
