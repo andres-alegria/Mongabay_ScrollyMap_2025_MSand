@@ -141,10 +141,10 @@ export default {
       alignment: 'left',
       hidden: false,
       title: ' ',
-      description: "Malabar Wildlife Sanctuary, 2015 (<b>before</b> the ban).",
+      description: "<b>Malabar Wildlife Sanctuary</b>",
              legend: [
         {
-          title: 'Legal sand quarries before 2015',
+          title: 'Legal sand quarries in 2015 (before the ban)',
           fromLayer: 'kerela_quarries_2015Before',
         },
         {
@@ -187,10 +187,10 @@ export default {
       alignment: 'left',
       hidden: false,
       title: ' ',
-      description: "Malabar Wildlife Sanctuary, 2016 (<b>after</b> the ban).",
+      description: "<b>Malabar Wildlife Sanctuary</b>",
              legend: [
         {
-          title: 'Legal sand quarries after 2015',
+          title: 'Legal sand quarries in 2016 (after the ban)',
           fromLayer: 'kerela_quarries_2016After',
         },
         {
@@ -208,15 +208,16 @@ export default {
       mapAnimation: 'easeTo',
       rotateAnimation: false,
       onChapterEnter: [
-                    {   
+
+      ],
+        onChapterExit: [
+  {   
           layer: 'kerela_quarries_2015Before',
           opacity: 0,
         },
-      ],
-        onChapterExit: [
                   {
           layer: 'kerela_quarries_2016After',
-          opacity: 0,
+          opacity: 1,
         },
       ],
     
@@ -229,7 +230,7 @@ export default {
       alignment: 'left',
       hidden: false,
       title: ' ',
-      description: "Malabar Wildlife Sanctuary has the highest number of quarries —15— within its 10 km buffer.",
+      description: "<b>Malabar Wildlife Sanctuary</b> has the highest number of quarries —15— within its 10 km buffer.",
              legend: [
         {
           title: 'Legal sand quarries',
@@ -263,7 +264,7 @@ export default {
       alignment: 'left',
       hidden: false,
       title: ' ',
-      description: "The Silent Valley National Park, home to the endangered lion-tailed macaque, has three quarries just four kilometres from its boundary.",
+      description: "The <b>Silent Valley National Park</b>, home to the endangered lion-tailed macaque, has three quarries just four kilometres from its boundary.",
            legend: [
       {
           title: 'Legal sand quarries',
@@ -307,7 +308,7 @@ export default {
       alignment: 'left',
       hidden: false,
       title: ' ',
-      description: "Some protected areas, such as the Aralam Wildlife Sanctuary, have quarries one kilometer from their boundary. Blasting increases noise and dust pollution, posing risks to both wildlife and humans.",
+      description: "Some protected areas, such as the <b>Aralam Wildlife Sanctuary</b>, have quarries one kilometer from their boundary. Blasting increases noise and dust pollution, posing risks to both wildlife and humans.",
       legend: [
       {
           title: 'Legal sand quarries',
