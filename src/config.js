@@ -159,6 +159,14 @@ export default {
         pitch: 70.0,
         bearing: 60,
       },
+       images: [
+        {
+          src: 'timelapse.gif',
+          position: 'top',
+          title: 'Timelapse',
+          author: 'Google Earth',
+        },
+           ],
       mapAnimation: 'easeTo',
       rotateAnimation: false,
       onChapterEnter: [
