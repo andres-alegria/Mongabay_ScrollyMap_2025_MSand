@@ -87,7 +87,7 @@ export default {
         onChapterExit: [
           {
           layer: 'kerela_quarries_2021',
-          opacity: 1,
+          opacity: 0,
         },
         ],
     },
@@ -145,31 +145,35 @@ export default {
       alignment: 'left',
       hidden: false,
       title: ' ',
-      description: "<b>Malabar Wildlife Sanctuary</b>",
+      description: "<b>Malabar Wildlife Sanctuary</b> has the highest number of quarries —15— within its 10 km buffer.",
              legend: [
         {
           title: 'Legal sand quarries in 2015 (before the ban)',
           fromLayer: 'kerela_quarries_2015Before',
         },
-        {
+              {
+          title: 'Legal sand quarries in 2016 (after the ban)',
+          fromLayer: 'kerela_quarries_2016After',
+        },
+           {
           title: 'Protected Areas',
           fromLayer: 'Kerela_PAs',
         },
          ],
+         images: [
+        {
+          src: 'photo5.jpg',
+          position: 'top',
+          title: 'Malabar Pied Hornbill',
+          author: 'V. Patil',
+        },
+               ],
         location: {
         center: [75.90, 11.60],
         zoom: 10.25,
         pitch: 70.0,
         bearing: 60,
       },
-       images: [
-        {
-          src: 'timelapse.gif',
-          position: 'top',
-          title: 'Timelapse',
-          author: 'Google Earth',
-        },
-           ],
       mapAnimation: 'easeTo',
       rotateAnimation: false,
       onChapterEnter: [
@@ -185,88 +189,18 @@ export default {
         },
                   {
           layer: 'kerela_quarries_2016After',
-          opacity: 0,
-        },
-      ],
-    
-    },
-    
-
-    // chapter 4
-    {
-      id: 'chapter 4',
-      alignment: 'left',
-      hidden: false,
-      title: ' ',
-      description: "<b>Malabar Wildlife Sanctuary</b>",
-             legend: [
-        {
-          title: 'Legal sand quarries in 2016 (after the ban)',
-          fromLayer: 'kerela_quarries_2016After',
-        },
-        {
-          title: 'Protected Areas',
-          fromLayer: 'Kerela_PAs',
-        },
-         ],
-      location: {
-        center: [75.90, 11.60],
-        zoom: 10.25,
-        pitch: 70.0,
-        bearing: 60,
-      },
-      mapAnimation: 'easeTo',
-      rotateAnimation: false,
-      onChapterEnter: [
-
-      ],
-        onChapterExit: [
-  {   
-          layer: 'kerela_quarries_2015Before',
-          opacity: 0,
-        },
-                  {
-          layer: 'kerela_quarries_2016After',
           opacity: 1,
         },
       ],
     
     },
     
+
+    // chapter 4 (merged above)
+    
         
-    // chapter 5
-    {
-      id: 'chapter 5',
-      alignment: 'left',
-      hidden: false,
-      title: ' ',
-      description: "<b>Malabar Wildlife Sanctuary</b> has the highest number of quarries —15— within its 10 km buffer.",
-             legend: [
-        {
-          title: 'Legal sand quarries',
-          fromLayer: 'kerela_quarries_2016After',
-        },
-        {
-          title: 'Protected Areas',
-          fromLayer: 'Kerela_PAs',
-        },
-         ],
-     location: {
-        center: [75.90, 11.60],
-        zoom: 10.25,
-        pitch: 70.0,
-        bearing: 60,
-      },
-      mapAnimation: 'easeTo',
-      rotateAnimation: false,
-      onChapterEnter: [
-      ],
-        onChapterExit: [
-      ],
-    
-    },
-    
-      
+    // chapter 5 (merged above)
+  
     // chapter 6
     {
       id: 'chapter 6',
@@ -275,8 +209,12 @@ export default {
       title: ' ',
       description: "The <b>Silent Valley National Park</b>, home to the endangered lion-tailed macaque, has three quarries just four kilometres from its boundary.",
            legend: [
-      {
-          title: 'Legal sand quarries',
+        {
+          title: 'Legal sand quarries in 2015 (before the ban)',
+          fromLayer: 'kerela_quarries_2015Before',
+        },
+              {
+          title: 'Legal sand quarries in 2016 (after the ban)',
           fromLayer: 'kerela_quarries_2016After',
         },
         {
@@ -301,8 +239,16 @@ export default {
       mapAnimation: 'easeTo',
       rotateAnimation: false,
       onChapterEnter: [
+        {   
+          layer: 'kerela_quarries_2015Before',
+          opacity: 1,
+        },
       ],
         onChapterExit: [
+                  {   
+          layer: 'kerela_quarries_2015Before',
+          opacity: 1,
+        },
       ],
     
     },
@@ -318,8 +264,12 @@ export default {
       title: ' ',
       description: "Some protected areas, such as the <b>Aralam Wildlife Sanctuary</b>, have quarries one kilometer from their boundary. Blasting increases noise and dust pollution, posing risks to both wildlife and humans.",
       legend: [
-      {
-          title: 'Legal sand quarries',
+        {
+          title: 'Legal sand quarries in 2015 (before the ban)',
+          fromLayer: 'kerela_quarries_2015Before',
+        },
+              {
+          title: 'Legal sand quarries in 2016 (after the ban)',
           fromLayer: 'kerela_quarries_2016After',
         },
         {
@@ -349,69 +299,10 @@ export default {
       ],
     },
        
- // chapter 8
-    {
-      id: 'chapter 8',
-      alignment: 'left',
-      hidden: false,
-      title: ' ',
-      description: "2011: Quarry footprint.",
-       legend: [
-      {
-          title: 'Legal sand quarries',
-          fromLayer: 'kerela_quarries_2016After',
-        },
-        {
-          title: 'Protected Areas',
-          fromLayer: 'Kerela_PAs',
-        },
-         ],
-     location: {
-      center: [75.84, 12.075],
-         zoom: 10.25,
-        pitch: 70.0,
-        bearing: 90,
-      },
-      mapAnimation: 'easeTo',
-      rotateAnimation: false,
-      onChapterEnter: [
-      ],
-        onChapterExit: [
-      ],
-    },
+ // chapter 8 (merged below)
 
  
- // chapter 9
-    {
-      id: 'chapter 9',
-      alignment: 'left',
-      hidden: false,
-      title: ' ',
-      description: "2016: After the ban, sites expanded.",
-      legend: [
-      {
-          title: 'Legal sand quarries',
-          fromLayer: 'kerela_quarries_2016After',
-        },
-        {
-          title: 'Protected Areas',
-          fromLayer: 'Kerela_PAs',
-        },
-         ],
-     location: {
- center: [75.84, 12.075],
-         zoom: 10.25,
-        pitch: 70.0,
-        bearing: 90,
-      },
-      mapAnimation: 'easeTo',
-      rotateAnimation: false,
-      onChapterEnter: [
-      ],
-        onChapterExit: [
-      ],
-    },
-
+ // chapter 9 (merged below)
  
  // chapter 10
     {
@@ -419,23 +310,39 @@ export default {
       alignment: 'left',
       hidden: false,
       title: ' ',
-      description: "2021: 90% of quarries had grown by more than 50%.",
-        legend: [
-      {
-          title: 'Legal sand quarries',
+      description: "<b>By 2021, 90% of quarries had grown by more than 50% compared to 2011.</b>",
+            legend: [
+        {
+          title: 'Legal sand quarries in 2015 (before the ban)',
+          fromLayer: 'kerela_quarries_2015Before',
+        },
+              {
+          title: 'Legal sand quarries in 2016 (after the ban)',
           fromLayer: 'kerela_quarries_2016After',
         },
-        {
+           {
           title: 'Protected Areas',
           fromLayer: 'Kerela_PAs',
         },
+               {
+          title: 'Western Ghats',
+          fromLayer: 'Western Ghats Solid',
+        },
          ],
       location: {
- center: [75.84, 12.075],
-         zoom: 10.25,
-        pitch: 70.0,
-        bearing: 90,
+        center: [76.0, 10.25],
+        zoom: 7.0,
+        pitch: 5.0,
+        bearing: 0,
       },
+      images: [
+        {
+          src: 'timelapse.gif',
+          position: 'top',
+          title: 'Before-After',
+          author: 'Google Earth',
+        },    
+                ],
       mapAnimation: 'easeTo',
       rotateAnimation: false,
       onChapterEnter: [
@@ -443,8 +350,16 @@ export default {
           layer: 'kerela_quarries_2021',
           opacity: 0,
         },
+                          {
+          layer: 'kerala-line',
+          opacity: 0,
+        },
       ],
         onChapterExit: [
+                            {
+          layer: 'kerala-line',
+          opacity: 0,
+        },
       ],
     },
 
@@ -456,7 +371,7 @@ export default {
       alignment: 'left',
       hidden: false,
       title: ' ',
-      description: "This study doesn’t factor in the other illegal quarrying in Kerala’s Western Ghats.",
+      description: "This story is based on the study by Ashok L, et al. (2025), which doesn’t factor in the other illegal quarrying in Kerala’s Western Ghats.",
      location: {
         center: [76.0, 10.25],
         zoom: 7.0,
@@ -466,6 +381,10 @@ export default {
       mapAnimation: 'easeTo',
       rotateAnimation: false,
       onChapterEnter: [
+                          {
+          layer: 'kerala-line',
+          opacity: 0,
+        },
 
       ],
         onChapterExit: [
@@ -473,10 +392,13 @@ export default {
           layer: 'kerela_quarries_2021',
           opacity: 1,
         },
+                  {
+          layer: 'kerala-line',
+          opacity: 0,
+        },
       ],
     },
 
-       
    
 
   ],
