@@ -85,6 +85,10 @@ export default {
         },
       ],
         onChapterExit: [
+          {
+          layer: 'kerela_quarries_2021',
+          opacity: 1,
+        },
         ],
     },
 
@@ -435,6 +439,10 @@ export default {
       mapAnimation: 'easeTo',
       rotateAnimation: false,
       onChapterEnter: [
+                {
+          layer: 'kerela_quarries_2021',
+          opacity: 0,
+        },
       ],
         onChapterExit: [
       ],
@@ -458,8 +466,13 @@ export default {
       mapAnimation: 'easeTo',
       rotateAnimation: false,
       onChapterEnter: [
+
       ],
         onChapterExit: [
+          {
+          layer: 'kerela_quarries_2021',
+          opacity: 1,
+        },
       ],
     },
 
