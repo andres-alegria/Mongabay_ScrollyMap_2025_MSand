@@ -68,33 +68,17 @@ export default {
           author: 'Superbmust',
         },
       ],
-      mapAnimation: 'easeTo',
+      mapAnimation: 'flyTo',
       rotateAnimation: false,
       onChapterEnter: [
          {
           layer: 'kerela_quarries_2021',
-          opacity: 0,
-        },
-          {
-          layer: 'kerela_quarries_2015Before',
-          opacity: 0,
-        },
-                  {
-          layer: 'kerela_quarries_2016After',
-          opacity: 0,
+          opacity: 1,
         },
       ],
         onChapterExit: [
           {
           layer: 'kerela_quarries_2021',
-          opacity: 1,
-        },
-          {
-          layer: 'kerela_quarries_2015Before',
-          opacity: 1,
-        },
-                  {
-          layer: 'kerela_quarries_2016After',
           opacity: 0,
         },
         ],
@@ -111,7 +95,7 @@ export default {
              legend: [
         {
           title: 'Legal sand quarries',
-          fromLayer: 'kerela_quarries_2015Before',
+          fromLayer: 'kerela_quarries_2021',
         },
         {
           title: 'Protected Areas',
@@ -133,7 +117,7 @@ export default {
           author: 'V.S. Iyer',
         },
            ],
-        mapAnimation: 'easeTo',
+        mapAnimation: 'flyTo',
       rotateAnimation: false,
       onChapterEnter: [
             {
@@ -156,12 +140,8 @@ export default {
       description: "<b>Malabar Wildlife Sanctuary</b> has the highest number of quarries —15— within its 10 km buffer.",
              legend: [
         {
-          title: 'Legal sand quarries in 2015 (before the ban)',
-          fromLayer: 'kerela_quarries_2015Before',
-        },
-              {
-          title: 'Legal sand quarries in 2016 (after the ban)',
-          fromLayer: 'kerela_quarries_2016After',
+          title: 'Legal sand quarries',
+          fromLayer: 'kerela_quarries_2021',
         },
            {
           title: 'Protected Areas',
@@ -182,23 +162,11 @@ export default {
         pitch: 70.0,
         bearing: 60,
       },
-      mapAnimation: 'easeTo',
+      mapAnimation: 'flyTo',
       rotateAnimation: false,
       onChapterEnter: [
-                      {
-          layer: 'kerela_quarries_2021',
-          opacity: 0,
-        },
       ],
         onChapterExit: [
-                  {   
-          layer: 'kerela_quarries_2015Before',
-          opacity: 1,
-        },
-                  {
-          layer: 'kerela_quarries_2016After',
-          opacity: 1,
-        },
       ],
     
     },
@@ -218,12 +186,8 @@ export default {
       description: "The <b>Silent Valley National Park</b>, home to the endangered lion-tailed macaque, has three quarries just four kilometres from its boundary.",
            legend: [
         {
-          title: 'Legal sand quarries in 2015 (before the ban)',
-          fromLayer: 'kerela_quarries_2015Before',
-        },
-              {
-          title: 'Legal sand quarries in 2016 (after the ban)',
-          fromLayer: 'kerela_quarries_2016After',
+          title: 'Legal sand quarries',
+          fromLayer: 'kerela_quarries_2021',
         },
         {
           title: 'Protected Areas',
@@ -244,19 +208,11 @@ export default {
           author: 'S.J. Koottanad',
         },
            ],
-      mapAnimation: 'easeTo',
+      mapAnimation: 'flyTo',
       rotateAnimation: false,
       onChapterEnter: [
-        {   
-          layer: 'kerela_quarries_2015Before',
-          opacity: 1,
-        },
       ],
         onChapterExit: [
-                  {   
-          layer: 'kerela_quarries_2015Before',
-          opacity: 1,
-        },
       ],
     
     },
@@ -273,12 +229,8 @@ export default {
       description: "Some protected areas, such as the <b>Aralam Wildlife Sanctuary</b>, have quarries one kilometer from their boundary. Blasting increases noise and dust pollution, posing risks to both wildlife and humans.",
       legend: [
         {
-          title: 'Legal sand quarries in 2015 (before the ban)',
-          fromLayer: 'kerela_quarries_2015Before',
-        },
-              {
-          title: 'Legal sand quarries in 2016 (after the ban)',
-          fromLayer: 'kerela_quarries_2016After',
+          title: 'Legal sand quarries',
+          fromLayer: 'kerela_quarries_2021',
         },
         {
           title: 'Protected Areas',
@@ -299,7 +251,7 @@ export default {
           author: 'Manojk',
         },
            ],
-      mapAnimation: 'easeTo',
+      mapAnimation: 'flyTo',
       rotateAnimation: false,
       onChapterEnter: [
       ],
@@ -321,12 +273,8 @@ export default {
       description: "<b>By 2021, 90% of quarries had grown by more than 50% compared to 2011.</b>",
             legend: [
         {
-          title: 'Legal sand quarries in 2015 (before the ban)',
-          fromLayer: 'kerela_quarries_2015Before',
-        },
-              {
-          title: 'Legal sand quarries in 2016 (after the ban)',
-          fromLayer: 'kerela_quarries_2016After',
+          title: 'Legal sand quarries',
+          fromLayer: 'kerela_quarries_2021',
         },
            {
           title: 'Protected Areas',
@@ -351,17 +299,9 @@ export default {
           author: 'Google Earth',
         },    
                 ],
-      mapAnimation: 'easeTo',
+      mapAnimation: 'flyTo',
       rotateAnimation: false,
       onChapterEnter: [
-                {
-          layer: 'kerela_quarries_2021',
-          opacity: 0,
-        },
-                          {
-          layer: 'kerala-line',
-          opacity: 0,
-        },
       ],
         onChapterExit: [
                             {
@@ -386,24 +326,15 @@ export default {
         pitch: 5.0,
         bearing: 0,
       },
-      mapAnimation: 'easeTo',
+      mapAnimation: 'flyTo',
       rotateAnimation: false,
       onChapterEnter: [
                           {
           layer: 'kerala-line',
           opacity: 0,
         },
-
       ],
         onChapterExit: [
-          {
-          layer: 'kerela_quarries_2021',
-          opacity: 1,
-        },
-                  {
-          layer: 'kerala-line',
-          opacity: 0,
-        },
       ],
     },
 
