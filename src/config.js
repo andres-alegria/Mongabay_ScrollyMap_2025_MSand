@@ -73,15 +73,15 @@ export default {
       onChapterEnter: [
          {
           layer: 'kerela_quarries_2021',
-          opacity: 1,
+          opacity: 0,
         },
           {
           layer: 'kerela_quarries_2015Before',
-          opacity: 1,
+          opacity: 0,
         },
                   {
           layer: 'kerela_quarries_2016After',
-          opacity: 1,
+          opacity: 0,
         },
       ],
         onChapterExit: [
@@ -95,7 +95,7 @@ export default {
         },
                   {
           layer: 'kerela_quarries_2016After',
-          opacity: 1,
+          opacity: 0,
         },
         ],
     },
