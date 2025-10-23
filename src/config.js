@@ -71,16 +71,8 @@ export default {
       mapAnimation: 'flyTo',
       rotateAnimation: false,
       onChapterEnter: [
-         {
-          layer: 'kerela_quarries_2021',
-          opacity: 1,
-        },
       ],
         onChapterExit: [
-          {
-          layer: 'kerela_quarries_2021',
-          opacity: 0,
-        },
         ],
     },
 
@@ -120,10 +112,6 @@ export default {
         mapAnimation: 'flyTo',
       rotateAnimation: false,
       onChapterEnter: [
-            {
-          layer: 'kerela_quarries_2021',
-          opacity: 1,
-        },
       ],
         onChapterExit: [
       ],
