@@ -71,6 +71,54 @@ export default {
       mapAnimation: 'flyTo',
       rotateAnimation: false,
       onChapterEnter: [
+          {
+          layer: 'Kerela_PAs_Text',
+          opacity: 1,
+        },
+        {
+          layer: 'lines_text',
+          opacity: 1,
+        },
+        {
+          layer: 'lines',
+          opacity: 1,
+        },
+        {
+          layer: 'waterway',
+          opacity: 1,
+        },
+        {
+          layer: 'kerela_quarries_2021',
+          opacity: 1,
+        },
+        {
+          layer: 'admin-0-boundary-disputed',
+          opacity: 1,
+        },
+        {
+          layer: 'admin-0-boundary-a',
+          opacity: 1,
+        },
+        {
+          layer: 'Kerela_PAs',
+          opacity: 1,
+        },
+        {
+          layer: 'Western Ghats Line',
+          opacity: 1,
+        },
+        {
+          layer: 'Western Ghats Solid',
+          opacity: 1,
+        },
+        {
+          layer: 'kerala-solid',
+          opacity: 1,
+        },
+        {
+          layer: 'admin-0-boundary-b',
+          opacity: 1,
+        },
       ],
         onChapterExit: [
         ],
