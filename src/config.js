@@ -88,6 +88,10 @@ export default {
           opacity: 1,
         },
         {
+          layer: 'kerela_quarries_2021',
+          opacity: 1,
+        },
+           {
           layer: 'kerela_quarries-3jdual',
           opacity: 1,
         },
