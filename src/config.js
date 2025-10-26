@@ -1,7 +1,7 @@
 const { REACT_APP_MAPBOX_ACCESS_TOKEN } = process.env;
 
 export default {
-  style: 'mapbox://styles/mongabay/cmeqyjm1p009y01qwg89hg61f',
+  style: 'mapbox://styles/mongabay/cmh336v58001n01qyg30n72p1',
   accessToken: REACT_APP_MAPBOX_ACCESS_TOKEN,
   showMarkers: false,
   theme: 'mongabay',
