@@ -6,7 +6,7 @@ export default {
   showMarkers: false,
   theme: 'mongabay',
   intro: {
-    title: 'Shifting Sands',
+    title: 'Shifting Sands No 3D',
     subtitle:
       'Kerala’s 2016 ban on river sand mining was meant to save its waterways and lifelines. However, it had an unintended consequence.',
     date: 'October 10 2025',
