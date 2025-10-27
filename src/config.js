@@ -6,7 +6,7 @@ export default {
   showMarkers: false,
   theme: 'mongabay',
   intro: {
-    title: 'Shifting Sands No 3D',
+    title: 'Shifting Sands',
     subtitle:
       'Kerala’s 2016 ban on river sand mining was meant to save its waterways and lifelines. However, it had an unintended consequence.',
     date: 'October 10 2025',
@@ -75,6 +75,10 @@ export default {
           layer: 'Kerela_PAs_Text',
           opacity: 1,
         },
+         {
+          layer: 'Kerela_quarries',
+          opacity: 1,
+        },
         {
           layer: 'lines_text',
           opacity: 1,
@@ -85,14 +89,6 @@ export default {
         },
         {
           layer: 'waterway',
-          opacity: 1,
-        },
-        {
-          layer: 'kerela_quarries_2021',
-          opacity: 1,
-        },
-           {
-          layer: 'kerela_quarries-3jdual',
           opacity: 1,
         },
         {
@@ -139,7 +135,7 @@ export default {
              legend: [
         {
           title: 'Legal sand quarries',
-          fromLayer: 'kerela_quarries_2021',
+          fromLayer: 'Kerela_quarries',
         },
         {
           title: 'Protected Areas',
@@ -181,7 +177,7 @@ export default {
              legend: [
         {
           title: 'Legal sand quarries',
-          fromLayer: 'kerela_quarries_2021',
+          fromLayer: 'Kerela_quarries',
         },
            {
           title: 'Protected Areas',
@@ -227,7 +223,7 @@ export default {
            legend: [
         {
           title: 'Legal sand quarries',
-          fromLayer: 'kerela_quarries_2021',
+          fromLayer: 'Kerela_quarries',
         },
         {
           title: 'Protected Areas',
@@ -270,7 +266,7 @@ export default {
       legend: [
         {
           title: 'Legal sand quarries',
-          fromLayer: 'kerela_quarries_2021',
+          fromLayer: 'Kerela_quarries',
         },
         {
           title: 'Protected Areas',
@@ -314,7 +310,7 @@ export default {
             legend: [
         {
           title: 'Legal sand quarries',
-          fromLayer: 'kerela_quarries_2021',
+          fromLayer: 'Kerela_quarries',
         },
            {
           title: 'Protected Areas',
