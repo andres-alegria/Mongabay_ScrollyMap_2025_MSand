@@ -56,7 +56,7 @@ export default {
       ],
       location: {
         center: [75.0, 13.0],
-        zoom: 4.75,
+        zoom: 6.0,
         pitch: 0.0,
         bearing: 0,
       },
