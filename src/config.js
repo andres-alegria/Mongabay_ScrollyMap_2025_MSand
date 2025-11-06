@@ -59,8 +59,7 @@ export default {
           author: 'Mdmadhu',
         },
       ],
-      mapAnimation: 'flyTo',
-      rotateAnimation: false,
+      mapAnimation: 'easeTo',
       onChapterEnter: [
         {
           layer: 'Kerela_PAs_Text',
@@ -98,7 +97,7 @@ export default {
           layer: 'Western Ghats Solid',
           opacity: 0,
         },
-                {
+        {
           layer: 'kerala-line',
           opacity: 0,
         },
@@ -110,12 +109,64 @@ export default {
           layer: 'admin-0-boundary-b',
           opacity: 0,
         },
-                {
+        {
           layer: 'Kerela_2014',
           opacity: 0,
         },
       ],
         onChapterExit: [
+            {
+          layer: 'Kerela_PAs_Text',
+          opacity: 0,
+        },
+         {
+          layer: 'Kerela_quarries',
+          opacity: 0,
+        },
+        {
+          layer: 'Distance_lines',
+          opacity: 0,
+        },
+        {
+          layer: 'waterway',
+          opacity: 0,
+        },
+        {
+          layer: 'admin-0-boundary-disputed',
+          opacity: 0,
+        },
+        {
+          layer: 'admin-0-boundary-a',
+          opacity: 0,
+        },
+        {
+          layer: 'Kerela_PAs',
+          opacity: 0,
+        },
+        {
+          layer: 'Western Ghats Line',
+          opacity: 0,
+        },
+        {
+          layer: 'Western Ghats Solid',
+          opacity: 0,
+        },
+        {
+          layer: 'kerala-line',
+          opacity: 0,
+        },
+        {
+          layer: 'kerala-solid',
+          opacity: 0,
+        },
+        {
+          layer: 'admin-0-boundary-b',
+          opacity: 0,
+        },
+        {
+          layer: 'Kerela_2014',
+          opacity: 0,
+        },
         ],
     },
 
@@ -169,15 +220,15 @@ export default {
         },
         {
           layer: 'waterway',
-          opacity: 0,
+          opacity: 0.2,
         },
         {
           layer: 'admin-0-boundary-disputed',
-          opacity: 0,
+          opacity: 1,
         },
         {
           layer: 'admin-0-boundary-a',
-          opacity: 0,
+          opacity: 1,
         },
         {
           layer: 'Kerela_PAs',
@@ -185,30 +236,82 @@ export default {
         },
         {
           layer: 'Western Ghats Line',
-          opacity: 0,
+          opacity: 1,
         },
         {
           layer: 'Western Ghats Solid',
-          opacity: 0,
+          opacity: 0.25,
         },
-                {
+        {
           layer: 'kerala-line',
-          opacity: 0,
+          opacity: 1,
         },
         {
           layer: 'kerala-solid',
-          opacity: 0,
+          opacity: 0.25,
         },
         {
           layer: 'admin-0-boundary-b',
-          opacity: 0,
+          opacity: 1,
         },
-                {
+        {
           layer: 'Kerela_2014',
           opacity: 0,
         },
       ],
         onChapterExit: [
+          {
+          layer: 'Kerela_PAs_Text',
+          opacity: 0,
+        },
+         {
+          layer: 'Kerela_quarries',
+          opacity: 0,
+        },
+        {
+          layer: 'Distance_lines',
+          opacity: 0,
+        },
+        {
+          layer: 'waterway',
+          opacity: 0.2,
+        },
+        {
+          layer: 'admin-0-boundary-disputed',
+          opacity: 1,
+        },
+        {
+          layer: 'admin-0-boundary-a',
+          opacity: 1,
+        },
+        {
+          layer: 'Kerela_PAs',
+          opacity: 0,
+        },
+        {
+          layer: 'Western Ghats Line',
+          opacity: 1,
+        },
+        {
+          layer: 'Western Ghats Solid',
+          opacity: 0.25,
+        },
+        {
+          layer: 'kerala-line',
+          opacity: 1,
+        },
+        {
+          layer: 'kerala-solid',
+          opacity: 0.25,
+        },
+        {
+          layer: 'admin-0-boundary-b',
+          opacity: 1,
+        },
+        {
+          layer: 'Kerela_2014',
+          opacity: 0,
+        },
         ],
     },
 
@@ -233,8 +336,8 @@ export default {
       sources: 'Ashok L, et al. (2025)',
  location: {
         center: [77.5, 11.5],
-        zoom: 6.25,
-        pitch: 62.0,
+        zoom: 7.25,
+        pitch: 55.0,
         bearing: 60,
       },
        images: [
@@ -248,8 +351,112 @@ export default {
         mapAnimation: 'flyTo',
       rotateAnimation: false,
       onChapterEnter: [
+          {
+          layer: 'Kerela_PAs_Text',
+          opacity: 0,
+        },
+         {
+          layer: 'Kerela_quarries',
+          opacity: 1,
+        },
+        {
+          layer: 'Distance_lines',
+          opacity: 0,
+        },
+        {
+          layer: 'waterway',
+          opacity: 0.2,
+        },
+        {
+          layer: 'admin-0-boundary-disputed',
+          opacity: 1,
+        },
+        {
+          layer: 'admin-0-boundary-a',
+          opacity: 1,
+        },
+        {
+          layer: 'Kerela_PAs',
+          opacity: 0.75,
+        },
+        {
+          layer: 'Western Ghats Line',
+          opacity: 1,
+        },
+        {
+          layer: 'Western Ghats Solid',
+          opacity: 0.25,
+        },
+        {
+          layer: 'kerala-line',
+          opacity: 1,
+        },
+        {
+          layer: 'kerala-solid',
+          opacity: 0.25,
+        },
+        {
+          layer: 'admin-0-boundary-b',
+          opacity: 1,
+        },
+        {
+          layer: 'Kerela_2014',
+          opacity: 0,
+        },
       ],
         onChapterExit: [
+           {
+          layer: 'Kerela_PAs_Text',
+          opacity: 0,
+        },
+         {
+          layer: 'Kerela_quarries',
+          opacity: 1,
+        },
+        {
+          layer: 'Distance_lines',
+          opacity: 0,
+        },
+        {
+          layer: 'waterway',
+          opacity: 0.2,
+        },
+        {
+          layer: 'admin-0-boundary-disputed',
+          opacity: 1,
+        },
+        {
+          layer: 'admin-0-boundary-a',
+          opacity: 1,
+        },
+        {
+          layer: 'Kerela_PAs',
+          opacity: 0.75,
+        },
+        {
+          layer: 'Western Ghats Line',
+          opacity: 1,
+        },
+        {
+          layer: 'Western Ghats Solid',
+          opacity: 0.25,
+        },
+        {
+          layer: 'kerala-line',
+          opacity: 1,
+        },
+        {
+          layer: 'kerala-solid',
+          opacity: 0.25,
+        },
+        {
+          layer: 'admin-0-boundary-b',
+          opacity: 1,
+        },
+        {
+          layer: 'Kerela_2014',
+          opacity: 0,
+        },
       ],
     
     },
@@ -289,8 +496,112 @@ export default {
       mapAnimation: 'flyTo',
       rotateAnimation: false,
       onChapterEnter: [
+        {
+          layer: 'Kerela_PAs_Text',
+          opacity: 1,
+        },
+         {
+          layer: 'Kerela_quarries',
+          opacity: 1,
+        },
+        {
+          layer: 'Distance_lines',
+          opacity: 0,
+        },
+        {
+          layer: 'waterway',
+          opacity: 0.2,
+        },
+        {
+          layer: 'admin-0-boundary-disputed',
+          opacity: 1,
+        },
+        {
+          layer: 'admin-0-boundary-a',
+          opacity: 1,
+        },
+        {
+          layer: 'Kerela_PAs',
+          opacity: 0.75,
+        },
+        {
+          layer: 'Western Ghats Line',
+          opacity: 1,
+        },
+        {
+          layer: 'Western Ghats Solid',
+          opacity: 0.25,
+        },
+        {
+          layer: 'kerala-line',
+          opacity: 1,
+        },
+        {
+          layer: 'kerala-solid',
+          opacity: 0.25,
+        },
+        {
+          layer: 'admin-0-boundary-b',
+          opacity: 1,
+        },
+        {
+          layer: 'Kerela_2014',
+          opacity: 0,
+        },
       ],
         onChapterExit: [
+           {
+          layer: 'Kerela_PAs_Text',
+          opacity: 1,
+        },
+         {
+          layer: 'Kerela_quarries',
+          opacity: 1,
+        },
+        {
+          layer: 'Distance_lines',
+          opacity: 0,
+        },
+        {
+          layer: 'waterway',
+          opacity: 0.2,
+        },
+        {
+          layer: 'admin-0-boundary-disputed',
+          opacity: 1,
+        },
+        {
+          layer: 'admin-0-boundary-a',
+          opacity: 1,
+        },
+        {
+          layer: 'Kerela_PAs',
+          opacity: 0.75,
+        },
+        {
+          layer: 'Western Ghats Line',
+          opacity: 1,
+        },
+        {
+          layer: 'Western Ghats Solid',
+          opacity: 0.25,
+        },
+        {
+          layer: 'kerala-line',
+          opacity: 1,
+        },
+        {
+          layer: 'kerala-solid',
+          opacity: 0.25,
+        },
+        {
+          layer: 'admin-0-boundary-b',
+          opacity: 1,
+        },
+        {
+          layer: 'Kerela_2014',
+          opacity: 0,
+        },
       ],
     
     },
@@ -403,7 +714,7 @@ export default {
          ],
       location: {
         center: [76.0, 10.25],
-        zoom: 3.0,
+        zoom: 7.0,
         pitch: 5.0,
         bearing: 0,
       },
@@ -420,10 +731,6 @@ export default {
       onChapterEnter: [
       ],
         onChapterExit: [
-                            {
-          layer: 'kerala-line',
-          opacity: 0,
-        },
       ],
     },
 
@@ -445,10 +752,6 @@ export default {
       mapAnimation: 'flyTo',
       rotateAnimation: false,
       onChapterEnter: [
-                          {
-          layer: 'kerala-line',
-          opacity: 0,
-        },
       ],
         onChapterExit: [
       ],
