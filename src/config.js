@@ -3,13 +3,14 @@ const { REACT_APP_MAPBOX_ACCESS_TOKEN } = process.env;
 export default {
   style: 'mapbox://styles/mongabay/cmh336v58001n01qyg30n72p1',
   accessToken: REACT_APP_MAPBOX_ACCESS_TOKEN,
+
   showMarkers: false,
   theme: 'mongabay',
   intro: {
     title: 'Shifting Sands',
     subtitle:
       'Kerala’s 2016 ban on river sand mining was meant to save its waterways and lifelines. However, it had an unintended consequence.',
-    date: 'October 10 2025',
+    date: 'November 11 2025',
     social: [
       {
         name: 'X',
@@ -34,8 +35,90 @@ export default {
   alignment: 'left',
   footer: 'Cartography by Andrés Alegría | Edited by Kartik Chandramouli',
  
- 
   chapters: [
+    
+    // chapter 0
+    {
+      id: 'chapter 0',
+      alignment: 'left',
+      hidden: false,
+      title: ' ',
+      description: "The <b>Western Ghats</b> also known as the Sahyadri, is a mountain range that stretches 1,600 km along the western coast of the Indian peninsula. Covering an area of 160,000 km², it traverses the Indian states of Gujarat, Maharashtra, Goa, Karnataka, Tamil Nadu and <b>Kerala</b>.",
+      location: {
+        center: [74.455016, 15.283453],
+        zoom: 14,
+        pitch: 73.5,
+        bearing: 37.6,
+      },
+      
+       images: [
+        {
+          src: 'photo0.jpg',
+          position: 'top',
+          title: 'Anaimudi Peak',
+          author: 'Mdmadhu',
+        },
+      ],
+      mapAnimation: 'flyTo',
+      rotateAnimation: false,
+      onChapterEnter: [
+        {
+          layer: 'Kerela_PAs_Text',
+          opacity: 0,
+        },
+         {
+          layer: 'Kerela_quarries',
+          opacity: 0,
+        },
+        {
+          layer: 'Distance_lines',
+          opacity: 0,
+        },
+        {
+          layer: 'waterway',
+          opacity: 0,
+        },
+        {
+          layer: 'admin-0-boundary-disputed',
+          opacity: 0,
+        },
+        {
+          layer: 'admin-0-boundary-a',
+          opacity: 0,
+        },
+        {
+          layer: 'Kerela_PAs',
+          opacity: 0,
+        },
+        {
+          layer: 'Western Ghats Line',
+          opacity: 0,
+        },
+        {
+          layer: 'Western Ghats Solid',
+          opacity: 0,
+        },
+                {
+          layer: 'kerala-line',
+          opacity: 0,
+        },
+        {
+          layer: 'kerala-solid',
+          opacity: 0,
+        },
+        {
+          layer: 'admin-0-boundary-b',
+          opacity: 0,
+        },
+                {
+          layer: 'Kerela_2014',
+          opacity: 0,
+        },
+      ],
+        onChapterExit: [
+        ],
+    },
+
 
     // chapter 1
     {
@@ -56,10 +139,11 @@ export default {
       ],
       location: {
         center: [75.0, 13.0],
-        zoom: 6.0,
+        zoom: 6,
         pitch: 0.0,
         bearing: 0,
       },
+      
        images: [
         {
           src: 'photo1a.jpg',
@@ -71,53 +155,57 @@ export default {
       mapAnimation: 'flyTo',
       rotateAnimation: false,
       onChapterEnter: [
-          {
+        {
           layer: 'Kerela_PAs_Text',
-          opacity: 1,
+          opacity: 0,
         },
          {
           layer: 'Kerela_quarries',
-          opacity: 1,
+          opacity: 0,
         },
         {
-          layer: 'lines_text',
-          opacity: 1,
-        },
-        {
-          layer: 'lines',
-          opacity: 1,
+          layer: 'Distance_lines',
+          opacity: 0,
         },
         {
           layer: 'waterway',
-          opacity: 1,
+          opacity: 0,
         },
         {
           layer: 'admin-0-boundary-disputed',
-          opacity: 1,
+          opacity: 0,
         },
         {
           layer: 'admin-0-boundary-a',
-          opacity: 1,
+          opacity: 0,
         },
         {
           layer: 'Kerela_PAs',
-          opacity: 1,
+          opacity: 0,
         },
         {
           layer: 'Western Ghats Line',
-          opacity: 1,
+          opacity: 0,
         },
         {
           layer: 'Western Ghats Solid',
-          opacity: 1,
+          opacity: 0,
+        },
+                {
+          layer: 'kerala-line',
+          opacity: 0,
         },
         {
           layer: 'kerala-solid',
-          opacity: 1,
+          opacity: 0,
         },
         {
           layer: 'admin-0-boundary-b',
-          opacity: 1,
+          opacity: 0,
+        },
+                {
+          layer: 'Kerela_2014',
+          opacity: 0,
         },
       ],
         onChapterExit: [
@@ -207,15 +295,10 @@ export default {
     
     },
     
-
-    // chapter 4 (merged above)
-    
-        
-    // chapter 5 (merged above)
   
-    // chapter 6
+    // chapter 4
     {
-      id: 'chapter 6',
+      id: 'chapter 4',
       alignment: 'left',
       hidden: false,
       title: ' ',
@@ -256,9 +339,9 @@ export default {
    
    
       
-    // chapter 7
+    // chapter 5
     {
-      id: 'chapter 7',
+      id: 'chapter 5',
       alignment: 'left',
       hidden: false,
       title: ' ',
@@ -295,14 +378,11 @@ export default {
       ],
     },
        
- // chapter 8 (merged below)
-
+       
  
- // chapter 9 (merged below)
- 
- // chapter 10
+ // chapter 6
     {
-      id: 'chapter 10',
+      id: 'chapter 6',
       alignment: 'left',
       hidden: false,
       title: ' ',
@@ -323,7 +403,7 @@ export default {
          ],
       location: {
         center: [76.0, 10.25],
-        zoom: 7.0,
+        zoom: 3.0,
         pitch: 5.0,
         bearing: 0,
       },
@@ -349,9 +429,9 @@ export default {
 
 
  
- // chapter 11
+ // chapter 7
     {
-      id: 'chapter 11',
+      id: 'chapter 7',
       alignment: 'left',
       hidden: false,
       title: ' ',
