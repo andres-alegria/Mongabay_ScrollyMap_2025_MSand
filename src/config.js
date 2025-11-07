@@ -1278,13 +1278,21 @@ export default {
       alignment: 'left',
       hidden: false,
       title: ' ',
-      description: "<b>By 2021, 90% of quarries in the state had grown by more than 50% compared to 2011.</b><br/><br/>This story, based on the study by Ashok L, <i>et al.</i> (2025), doesn’t factor in illegal quarrying in the Western Ghats.",
+      description: "This story, based on the study by Ashok L, <i>et al.</i> (2025), doesn’t factor in illegal quarrying in the Western Ghats.",
      location: {
         center: [76.0, 10.25],
         zoom: 7.0,
         pitch: 5.0,
         bearing: 0,
       },
+   images: [
+        {
+          src: 'Graph.jpg',
+          position: 'top',
+          title: 'Size and number of quarries in Kerela',
+          author: ' ',
+        },
+           ],      
       mapAnimation: 'flyTo',
       rotateAnimation: false,
       onChapterEnter: [
