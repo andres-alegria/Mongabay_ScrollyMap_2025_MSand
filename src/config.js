@@ -33,7 +33,7 @@ export default {
     },
   ],
   alignment: 'left',
-  footer: 'Cartography by Andrés Alegría | Edited by Kartik Chandramouli',
+  footer: 'Cartography by Andrés Alegría | Edited by Kartik Chandramouli | Banner image by AP Photo',
  
   chapters: [
     
@@ -43,20 +43,19 @@ export default {
       alignment: 'left',
       hidden: false,
       title: ' ',
-      description: "The <b>Western Ghats</b> also known as the Sahyadri, is a mountain range that stretches 1,600 km along the western coast of the Indian peninsula. Covering an area of 160,000 km², it traverses the Indian states of Gujarat, Maharashtra, Goa, Karnataka, Tamil Nadu and <b>Kerala</b>.",
-      location: {
-        center: [74.455016, 15.283453],
-        zoom: 14,
-        pitch: 73.5,
-        bearing: 37.6,
+      description: "The construction industry is Kerala’s largest consumer of river sand. Rampant sand mining led to falling groundwater levels, disrupted stream flows, and weakened bridges. <b>In June 2015, the Kerala government banned sand mining</b> in six rivers and restricted it in five others.",
+        location: {
+        center: [75.126410, 12.462606],
+        zoom: 11.2,
+        pitch: 66,
+        bearing: 63.2,
       },
       
        images: [
         {
           src: 'photo0.jpg',
           position: 'top',
-          title: 'Anaimudi Peak',
-          author: 'Mdmadhu',
+          title: 'Chandragiri River',
         },
       ],
       mapAnimation: 'easeTo',
@@ -75,7 +74,7 @@ export default {
         },
         {
           layer: 'waterway',
-          opacity: 0,
+          opacity: 1,
         },
         {
           layer: 'admin-0-boundary-disputed',
@@ -129,7 +128,7 @@ export default {
         },
         {
           layer: 'waterway',
-          opacity: 0,
+          opacity: 1,
         },
         {
           layer: 'admin-0-boundary-disputed',
@@ -177,7 +176,7 @@ export default {
       alignment: 'left',
       hidden: false,
       title: ' ',
-      description: "The construction industry is Kerala’s largest consumer of river sand. After the ban on river sand mining, miners turned to the hills of the Western Ghats, crushing quarried hard rock to produce manufactured sand, also known as <b>m-sand</b>.",
+      description: "After the ban on river sand mining, miners turned to the hills of the Western Ghats, crushing quarried hard rock to produce manufactured sand, also known as <b>m-sand</b>.",
        legend: [
         {
           title: 'Western Ghats',
@@ -189,20 +188,12 @@ export default {
         },
       ],
       location: {
-        center: [75.0, 13.0],
-        zoom: 6,
-        pitch: 0.0,
+        center: [75.75, 10.75],
+        zoom: 6.25,
+        pitch: 25,
         bearing: 0,
       },
       
-       images: [
-        {
-          src: 'photo1a.jpg',
-          position: 'top',
-          title: 'Representational stone quarry',
-          author: 'Superbmust',
-        },
-      ],
       mapAnimation: 'flyTo',
       rotateAnimation: false,
       onChapterEnter: [
@@ -220,7 +211,7 @@ export default {
         },
         {
           layer: 'waterway',
-          opacity: 0.2,
+          opacity: 0.8,
         },
         {
           layer: 'admin-0-boundary-disputed',
@@ -274,7 +265,7 @@ export default {
         },
         {
           layer: 'waterway',
-          opacity: 0.2,
+          opacity: 0.8,
         },
         {
           layer: 'admin-0-boundary-disputed',
@@ -322,7 +313,7 @@ export default {
       alignment: 'left',
       hidden: false,
       title: ' ',
-      description: "72 legal quarries lie within 10 km of 20 protected areas in the Western Ghats, one of the world’s most biodiverse regions. Most expanded after the ban.",
+      description: "72 legal quarries lie within 10 km of 20 protected areas in the Western Ghats, one of the world’s most biodiverse regions.<b><br/>Most expanded after the ban</b>.",
              legend: [
         {
           title: 'Legal sand quarries',
@@ -334,21 +325,22 @@ export default {
         },
          ],
       sources: 'Ashok L, et al. (2025)',
+      
  location: {
-        center: [77.5, 11.5],
-        zoom: 7.25,
-        pitch: 55.0,
-        bearing: 60,
+        center: [75.75, 10.25],
+        zoom: 6.75,
+        pitch: 25,
+        bearing: 0,
       },
        images: [
         {
           src: 'photo2.jpg',
           position: 'top',
           title: 'Mountains of Western Ghats',
-          author: 'V.S. Iyer',
+          author: '',
         },
            ],
-        mapAnimation: 'flyTo',
+        mapAnimation: 'easeTo',
       rotateAnimation: false,
       onChapterEnter: [
           {
@@ -462,9 +454,9 @@ export default {
     },
 
 
-    // chapter 3
+    // chapter 3a
     {
-      id: 'chapter 3',
+      id: 'chapter 3a',
       alignment: 'left',
       hidden: false,
       title: ' ',
@@ -483,8 +475,8 @@ export default {
         {
           src: 'photo5.jpg',
           position: 'top',
-          title: 'Malabar Pied Hornbill',
-          author: 'V. Patil',
+          title: 'Malabar Trogon',
+          author: '',
         },
                ],
         location: {
@@ -549,7 +541,7 @@ export default {
           opacity: 0,
         },
       ],
-        onChapterExit: [
+      onChapterExit: [
            {
           layer: 'Kerela_PAs_Text',
           opacity: 1,
@@ -607,133 +599,7 @@ export default {
     },
     
     
-     // chapter 3a
-    {
-      id: 'chapter 3a',
-      alignment: 'left',
-      hidden: false,
-      title: ' ',
-      description: "This quarry is located <b>within the boundaries of the Malabar Wildlife Sanctuary</b>. During its first year of operation it reached a size of 4 Ha. By 2021 it had expanded to 9.3 Ha.",
-        location: {
-        center: [75.955761, 11.5225],
-        zoom: 16.30,
-        pitch: 20.1,
-        bearing: 35.2,
-      },
-      mapAnimation: 'flyTo',
-      rotateAnimation: false,
-      onChapterEnter: [
-        {
-          layer: 'Kerela_PAs_Text',
-          opacity: 0,
-        },
-         {
-          layer: 'Kerela_quarries',
-          opacity: 0,
-        },
-        {
-          layer: 'Distance_lines',
-          opacity: 0,
-        },
-        {
-          layer: 'waterway',
-          opacity: 0.0,
-        },
-        {
-          layer: 'admin-0-boundary-disputed',
-          opacity: 0,
-        },
-        {
-          layer: 'admin-0-boundary-a',
-          opacity: 0,
-        },
-        {
-          layer: 'Kerela_PAs',
-          opacity: 0.2,
-        },
-        {
-          layer: 'Western Ghats Line',
-          opacity: 0,
-        },
-        {
-          layer: 'Western Ghats Solid',
-          opacity: 0,
-        },
-        {
-          layer: 'kerala-line',
-          opacity: 0,
-        },
-        {
-          layer: 'kerala-solid',
-          opacity: 0,
-        },
-        {
-          layer: 'admin-0-boundary-b',
-          opacity: 0,
-        },
-        {
-          layer: 'Kerela_2014',
-          opacity: 0,
-        },
-      ],
-        onChapterExit: [
-  {
-          layer: 'Kerela_PAs_Text',
-          opacity: 0,
-        },
-         {
-          layer: 'Kerela_quarries',
-          opacity: 0,
-        },
-        {
-          layer: 'Distance_lines',
-          opacity: 0,
-        },
-        {
-          layer: 'waterway',
-          opacity: 0.0,
-        },
-        {
-          layer: 'admin-0-boundary-disputed',
-          opacity: 0,
-        },
-        {
-          layer: 'admin-0-boundary-a',
-          opacity: 0,
-        },
-        {
-          layer: 'Kerela_PAs',
-          opacity: 0.2,
-        },
-        {
-          layer: 'Western Ghats Line',
-          opacity: 0,
-        },
-        {
-          layer: 'Western Ghats Solid',
-          opacity: 0,
-        },
-        {
-          layer: 'kerala-line',
-          opacity: 0,
-        },
-        {
-          layer: 'kerala-solid',
-          opacity: 0,
-        },
-        {
-          layer: 'admin-0-boundary-b',
-          opacity: 0,
-        },
-        {
-          layer: 'Kerela_2014',
-          opacity: 0,
-        },
-      ],
-    
-    },
-    
-    
+   
      // chapter 3b
     {
       id: 'chapter 3b',
@@ -742,8 +608,8 @@ export default {
       title: ' ',
       description: "Located at less than 3 km from the <b>Malabar Wildlife Sanctuary</b>, this quarry expanded from about 16 ha in 2016, to more than 19 ha in 2021, making it one of the largest legal sand quarries in Kerala.",
         location: {
-        center: [75.830261, 11.63],
-        zoom: 13.75,
+        center: [75.816, 11.635],
+        zoom: 13.55,
         pitch: 50,
         bearing: 35,
       },
@@ -803,7 +669,7 @@ export default {
           opacity: 0,
         },
       ],
-        onChapterExit: [
+      onChapterExit: [
            {
           layer: 'Kerela_PAs_Text',
           opacity: 0,
@@ -867,7 +733,8 @@ export default {
       alignment: 'left',
       hidden: false,
       title: ' ',
-      description: "Here we see a satellite image captured by Planet Labs PBC in <b>2014</b>, showing quarry of 0.5 ha.",
+      description: "A quarry in <b>2014</b> measuring 0.5 ha.<br/><br/>Source: Planet Labs PBC",
+
         location: {
         center: [75.862938, 11.50543],
         zoom: 15.8,
@@ -994,7 +861,7 @@ export default {
       alignment: 'left',
       hidden: false,
       title: ' ',
-      description: "By <b>2021</b>, two separate quarries had emerged, covering together almost 5 ha.",
+      description: "By <b>2021</b>, two separate quarries had emerged, together covering about 5 ha.<br/><br/>Source: Mapbox Satellite",
         location: {
         center: [75.862938, 11.50543],
         zoom: 15.8,
@@ -1142,7 +1009,7 @@ export default {
           src: 'photo3a.jpg',
           position: 'top',
           title: 'Lion-tailed macaque',
-          author: 'S.J. Koottanad',
+          author: '',
         },
            ],
       mapAnimation: 'flyTo',
@@ -1289,7 +1156,7 @@ export default {
           src: 'photo4.jpg',
           position: 'top',
           title: 'Aralam Wildlife Sanctuary',
-          author: 'Manojk',
+          author: '',
         },
            ],
       mapAnimation: 'flyTo',
@@ -1411,7 +1278,7 @@ export default {
       alignment: 'left',
       hidden: false,
       title: ' ',
-      description: "<b>By 2021, 90% of quarries had grown by more than 50% compared to 2011.</b><br/><br/>This story is based on the study by Ashok L, et al. (2025), which doesn’t factor in the other illegal quarrying in Kerala’s Western Ghats.",
+      description: "<b>By 2021, 90% of quarries in the state had grown by more than 50% compared to 2011.</b><br/><br/>This story, based on the study by Ashok L, <i>et al.</i> (2025), doesn’t factor in illegal quarrying in the Western Ghats.",
      location: {
         center: [76.0, 10.25],
         zoom: 7.0,
