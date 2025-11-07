@@ -1289,7 +1289,7 @@ export default {
         {
           src: 'Graph.jpg',
           position: 'top',
-          title: 'Size and number of quarries in Kerela',
+          title: 'Rise in quarrying',
           author: ' ',
         },
            ],      
