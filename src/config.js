@@ -10,7 +10,7 @@ export default {
     title: 'Shifting Sands',
     subtitle:
       'Kerala’s 2016 ban on river sand mining was meant to save its waterways and lifelines. However, it had an unintended consequence.',
-    date: 'November 11 2025',
+    date: 'November 11, 2025',
     social: [
       {
         name: 'X',
@@ -33,7 +33,7 @@ export default {
     },
   ],
   alignment: 'left',
-  footer: 'Cartography by Andrés Alegría | Edited by Kartik Chandramouli | Banner image by AP Photo',
+  footer: 'Produced by Kartik Chandramouli | Cartography by Andrés Alegría | Copy edits by Divya Kilikar | Banner image by AP Photo',
  
   chapters: [
     
@@ -43,7 +43,7 @@ export default {
       alignment: 'left',
       hidden: false,
       title: ' ',
-      description: "The construction industry is Kerala’s largest consumer of river sand. Rampant sand mining led to falling groundwater levels, disrupted stream flows, and weakened bridges. <b>In June 2015, the Kerala government banned sand mining</b> in six rivers and restricted it in five others.",
+      description: "The construction industry is Kerala’s largest consumer of river sand. Rampant sand mining led to falling groundwater levels, disrupted stream flows, and weakened bridges. <b>In June 2015, the Kerala government banned sand mining</b> in 6 rivers and restricted it in 5 others.",
         location: {
         center: [75.126410, 12.462606],
         zoom: 11.2,
@@ -60,6 +60,14 @@ export default {
       ],
       mapAnimation: 'easeTo',
       onChapterEnter: [
+              {
+          layer: 'OneQuarries',
+          opacity: 0,
+        },
+        {
+          layer: 'TwoQuarries',
+          opacity: 0,
+        },
         {
           layer: 'Kerela_PAs_Text',
           opacity: 0,
@@ -93,7 +101,7 @@ export default {
           opacity: 0,
         },
         {
-          layer: 'Western Ghats Solid',
+          layer: 'Western Ghats Solid_Hatch',
           opacity: 0,
         },
         {
@@ -114,6 +122,14 @@ export default {
         },
       ],
         onChapterExit: [
+              {
+          layer: 'OneQuarries',
+          opacity: 0,
+        },
+        {
+          layer: 'TwoQuarries',
+          opacity: 0,
+        },
             {
           layer: 'Kerela_PAs_Text',
           opacity: 0,
@@ -147,7 +163,7 @@ export default {
           opacity: 0,
         },
         {
-          layer: 'Western Ghats Solid',
+          layer: 'Western Ghats Solid_Hatch',
           opacity: 0,
         },
         {
@@ -176,11 +192,11 @@ export default {
       alignment: 'left',
       hidden: false,
       title: ' ',
-      description: "After the ban on river sand mining, miners turned to the hills of the Western Ghats, crushing quarried hard rock to produce manufactured sand, also known as <b>m-sand</b>.",
+      description: "After the ban on river sand mining, miners turned to the hills of the Western Ghats, crushing quarried hard rock to produce manufactured sand, also known as <b>m-sand</b>. It is considered a sustainable alternative to natural sand.",
        legend: [
         {
           title: 'Western Ghats',
-          fromLayer: 'Western Ghats Solid',
+          fromLayer: 'Western Ghats Solid_Hatch',
         },
         {
           title: 'Kerala state',
@@ -197,6 +213,14 @@ export default {
       mapAnimation: 'flyTo',
       rotateAnimation: false,
       onChapterEnter: [
+              {
+          layer: 'OneQuarries',
+          opacity: 0,
+        },
+        {
+          layer: 'TwoQuarries',
+          opacity: 0,
+        },
         {
           layer: 'Kerela_PAs_Text',
           opacity: 0,
@@ -230,8 +254,8 @@ export default {
           opacity: 1,
         },
         {
-          layer: 'Western Ghats Solid',
-          opacity: 0.25,
+          layer: 'Western Ghats Solid_Hatch',
+          opacity: 0.9,
         },
         {
           layer: 'kerala-line',
@@ -251,6 +275,14 @@ export default {
         },
       ],
         onChapterExit: [
+              {
+          layer: 'OneQuarries',
+          opacity: 0,
+        },
+        {
+          layer: 'TwoQuarries',
+          opacity: 0,
+        },
           {
           layer: 'Kerela_PAs_Text',
           opacity: 0,
@@ -284,8 +316,8 @@ export default {
           opacity: 1,
         },
         {
-          layer: 'Western Ghats Solid',
-          opacity: 0.25,
+          layer: 'Western Ghats Solid_Hatch',
+          opacity: 0.9,
         },
         {
           layer: 'kerala-line',
@@ -313,7 +345,7 @@ export default {
       alignment: 'left',
       hidden: false,
       title: ' ',
-      description: "72 legal quarries lie within 10 km of 20 protected areas in the Western Ghats, one of the world’s most biodiverse regions.<b><br/>Most expanded after the ban</b>.",
+      description: "72 legal quarries lie within 10 km of 20 protected areas in the Western Ghats, one of the world’s most biodiverse regions. <b>Most expanded after the ban</b>.",
              legend: [
         {
           title: 'Legal sand quarries',
@@ -343,6 +375,14 @@ export default {
         mapAnimation: 'easeTo',
       rotateAnimation: false,
       onChapterEnter: [
+              {
+          layer: 'OneQuarries',
+          opacity: 0,
+        },
+        {
+          layer: 'TwoQuarries',
+          opacity: 0,
+        },
           {
           layer: 'Kerela_PAs_Text',
           opacity: 0,
@@ -376,8 +416,8 @@ export default {
           opacity: 1,
         },
         {
-          layer: 'Western Ghats Solid',
-          opacity: 0.25,
+          layer: 'Western Ghats Solid_Hatch',
+          opacity: 0.9,
         },
         {
           layer: 'kerala-line',
@@ -397,6 +437,14 @@ export default {
         },
       ],
         onChapterExit: [
+              {
+          layer: 'OneQuarries',
+          opacity: 0,
+        },
+        {
+          layer: 'TwoQuarries',
+          opacity: 0,
+        },
            {
           layer: 'Kerela_PAs_Text',
           opacity: 0,
@@ -430,8 +478,8 @@ export default {
           opacity: 1,
         },
         {
-          layer: 'Western Ghats Solid',
-          opacity: 0.25,
+          layer: 'Western Ghats Solid_Hatch',
+          opacity: 0.9,
         },
         {
           layer: 'kerala-line',
@@ -460,7 +508,7 @@ export default {
       alignment: 'left',
       hidden: false,
       title: ' ',
-      description: "<b>Malabar Wildlife Sanctuary</b> has the highest number of quarries —15— within its 10 km buffer.",
+      description: "<b>Malabar Wildlife Sanctuary</b> has the highest number of quarries —15— within its 10 km buffer zone.",
              legend: [
         {
           title: 'Legal sand quarries',
@@ -488,6 +536,14 @@ export default {
       mapAnimation: 'flyTo',
       rotateAnimation: false,
       onChapterEnter: [
+              {
+          layer: 'OneQuarries',
+          opacity: 0,
+        },
+        {
+          layer: 'TwoQuarries',
+          opacity: 0,
+        },
         {
           layer: 'Kerela_PAs_Text',
           opacity: 1,
@@ -521,8 +577,8 @@ export default {
           opacity: 1,
         },
         {
-          layer: 'Western Ghats Solid',
-          opacity: 0.25,
+          layer: 'Western Ghats Solid_Hatch',
+          opacity: 0.9,
         },
         {
           layer: 'kerala-line',
@@ -542,6 +598,14 @@ export default {
         },
       ],
       onChapterExit: [
+              {
+          layer: 'OneQuarries',
+          opacity: 0,
+        },
+        {
+          layer: 'TwoQuarries',
+          opacity: 0,
+        },
            {
           layer: 'Kerela_PAs_Text',
           opacity: 1,
@@ -575,8 +639,8 @@ export default {
           opacity: 1,
         },
         {
-          layer: 'Western Ghats Solid',
-          opacity: 0.25,
+          layer: 'Western Ghats Solid_Hatch',
+          opacity: 0.9,
         },
         {
           layer: 'kerala-line',
@@ -606,7 +670,7 @@ export default {
       alignment: 'left',
       hidden: false,
       title: ' ',
-      description: "Located at less than 3 km from the <b>Malabar Wildlife Sanctuary</b>, this quarry expanded from about 16 ha in 2016, to more than 19 ha in 2021, making it one of the largest legal sand quarries in Kerala.",
+      description: "Located at less than 3 km from the <b>Malabar Wildlife Sanctuary</b>, this quarry expanded from about 13.6 ha in 2016, to more than 19 ha in 2021, making it one of the largest legal sand quarries in Kerala.",
         location: {
         center: [75.816, 11.635],
         zoom: 13.55,
@@ -616,6 +680,14 @@ export default {
       mapAnimation: 'flyTo',
       rotateAnimation: false,
       onChapterEnter: [
+              {
+          layer: 'OneQuarries',
+          opacity: 0,
+        },
+        {
+          layer: 'TwoQuarries',
+          opacity: 0,
+        },
         {
           layer: 'Kerela_PAs_Text',
           opacity: 0,
@@ -649,7 +721,7 @@ export default {
           opacity: 0,
         },
         {
-          layer: 'Western Ghats Solid',
+          layer: 'Western Ghats Solid_Hatch',
           opacity: 0,
         },
         {
@@ -670,6 +742,14 @@ export default {
         },
       ],
       onChapterExit: [
+              {
+          layer: 'OneQuarries',
+          opacity: 0,
+        },
+        {
+          layer: 'TwoQuarries',
+          opacity: 0,
+        },
            {
           layer: 'Kerela_PAs_Text',
           opacity: 0,
@@ -703,7 +783,7 @@ export default {
           opacity: 0,
         },
         {
-          layer: 'Western Ghats Solid',
+          layer: 'Western Ghats Solid_Hatch',
           opacity: 0,
         },
         {
@@ -745,6 +825,14 @@ export default {
       rotateAnimation: false,
       onChapterEnter: [
         {
+          layer: 'OneQuarries',
+          opacity: 1,
+        },
+        {
+          layer: 'TwoQuarries',
+          opacity: 0,
+        },
+        {
           layer: 'Kerela_PAs_Text',
           opacity: 0,
         },
@@ -777,7 +865,7 @@ export default {
           opacity: 0,
         },
         {
-          layer: 'Western Ghats Solid',
+          layer: 'Western Ghats Solid_Hatch',
           opacity: 0,
         },
         {
@@ -798,6 +886,14 @@ export default {
         },
       ],
         onChapterExit: [
+                {
+          layer: 'OneQuarries',
+          opacity: 1,
+        },
+        {
+          layer: 'TwoQuarries',
+          opacity: 0,
+        },
            {
           layer: 'Kerela_PAs_Text',
           opacity: 0,
@@ -831,7 +927,7 @@ export default {
           opacity: 0,
         },
         {
-          layer: 'Western Ghats Solid',
+          layer: 'Western Ghats Solid_Hatch',
           opacity: 0,
         },
         {
@@ -871,6 +967,14 @@ export default {
       mapAnimation: 'flyTo',
       rotateAnimation: false,
       onChapterEnter: [
+              {
+          layer: 'OneQuarries',
+          opacity: 0,
+        },
+        {
+          layer: 'TwoQuarries',
+          opacity: 1,
+        },
         {
           layer: 'Kerela_PAs_Text',
           opacity: 0,
@@ -904,7 +1008,7 @@ export default {
           opacity: 0,
         },
         {
-          layer: 'Western Ghats Solid',
+          layer: 'Western Ghats Solid_Hatch',
           opacity: 0,
         },
         {
@@ -925,6 +1029,14 @@ export default {
         },
       ],
         onChapterExit: [
+              {
+          layer: 'OneQuarries',
+          opacity: 0,
+        },
+        {
+          layer: 'TwoQuarries',
+          opacity: 1,
+        },
            {
           layer: 'Kerela_PAs_Text',
           opacity: 0,
@@ -958,7 +1070,7 @@ export default {
           opacity: 0,
         },
         {
-          layer: 'Western Ghats Solid',
+          layer: 'Western Ghats Solid_Hatch',
           opacity: 0,
         },
         {
@@ -981,13 +1093,14 @@ export default {
     
     },
   
+  
     // chapter 4
     {
       id: 'chapter 4',
       alignment: 'left',
       hidden: false,
       title: ' ',
-      description: "The <b>Silent Valley National Park</b>, home to the endangered lion-tailed macaque, has three quarries just four kilometres from its boundary.",
+      description: "The <b>Silent Valley National Park</b>, home to the endangered lion-tailed macaque, has three quarries just 4 kilometres from its boundary.",
            legend: [
         {
           title: 'Legal sand quarries',
@@ -1015,6 +1128,14 @@ export default {
       mapAnimation: 'flyTo',
       rotateAnimation: false,
       onChapterEnter: [
+              {
+          layer: 'OneQuarries',
+          opacity: 0,
+        },
+        {
+          layer: 'TwoQuarries',
+          opacity: 0,
+        },
           {
           layer: 'Kerela_PAs_Text',
           opacity: 1,
@@ -1048,8 +1169,8 @@ export default {
           opacity: 1,
         },
         {
-          layer: 'Western Ghats Solid',
-          opacity: 0.25,
+          layer: 'Western Ghats Solid_Hatch',
+          opacity: 0.9,
         },
         {
           layer: 'kerala-line',
@@ -1069,6 +1190,14 @@ export default {
         },
       ],
         onChapterExit: [
+              {
+          layer: 'OneQuarries',
+          opacity: 0,
+        },
+        {
+          layer: 'TwoQuarries',
+          opacity: 0,
+        },
                   {
           layer: 'Kerela_PAs_Text',
           opacity: 1,
@@ -1102,8 +1231,8 @@ export default {
           opacity: 1,
         },
         {
-          layer: 'Western Ghats Solid',
-          opacity: 0.25,
+          layer: 'Western Ghats Solid_Hatch',
+          opacity: 0.9,
         },
         {
           layer: 'kerala-line',
@@ -1124,8 +1253,6 @@ export default {
       ],
     
     },
-       
-   
    
       
     // chapter 5
@@ -1134,7 +1261,7 @@ export default {
       alignment: 'left',
       hidden: false,
       title: ' ',
-      description: "Some protected areas, such as the <b>Aralam Wildlife Sanctuary</b>, have quarries one kilometer from their boundary. Blasting increases noise and dust pollution, posing risks to both wildlife and humans.",
+      description: "Some protected areas, such as the <b>Aralam Wildlife Sanctuary</b>, have quarries 1 kilometre from their boundary. Blasting increases noise and dust pollution, posing risks to both wildlife and humans.",
       legend: [
         {
           title: 'Legal sand quarries',
@@ -1162,6 +1289,14 @@ export default {
       mapAnimation: 'flyTo',
       rotateAnimation: false,
       onChapterEnter: [
+              {
+          layer: 'OneQuarries',
+          opacity: 0,
+        },
+        {
+          layer: 'TwoQuarries',
+          opacity: 0,
+        },
                 {
           layer: 'Kerela_PAs_Text',
           opacity: 1,
@@ -1195,8 +1330,8 @@ export default {
           opacity: 1,
         },
         {
-          layer: 'Western Ghats Solid',
-          opacity: 0.25,
+          layer: 'Western Ghats Solid_Hatch',
+          opacity: 0.9,
         },
         {
           layer: 'kerala-line',
@@ -1216,6 +1351,14 @@ export default {
         },
       ],
         onChapterExit: [
+              {
+          layer: 'OneQuarries',
+          opacity: 0,
+        },
+        {
+          layer: 'TwoQuarries',
+          opacity: 0,
+        },
                   {
           layer: 'Kerela_PAs_Text',
           opacity: 1,
@@ -1249,8 +1392,8 @@ export default {
           opacity: 1,
         },
         {
-          layer: 'Western Ghats Solid',
-          opacity: 0.25,
+          layer: 'Western Ghats Solid_Hatch',
+          opacity: 0.9,
         },
         {
           layer: 'kerala-line',
@@ -1296,6 +1439,14 @@ export default {
       mapAnimation: 'flyTo',
       rotateAnimation: false,
       onChapterEnter: [
+              {
+          layer: 'OneQuarries',
+          opacity: 0,
+        },
+        {
+          layer: 'TwoQuarries',
+          opacity: 0,
+        },
           {
           layer: 'Kerela_PAs_Text',
           opacity: 0,
@@ -1329,8 +1480,8 @@ export default {
           opacity: 1,
         },
         {
-          layer: 'Western Ghats Solid',
-          opacity: 0.25,
+          layer: 'Western Ghats Solid_Hatch',
+          opacity: 0.9,
         },
         {
           layer: 'kerala-line',
@@ -1350,6 +1501,14 @@ export default {
         },
       ],
         onChapterExit: [
+              {
+          layer: 'OneQuarries',
+          opacity: 0,
+        },
+        {
+          layer: 'TwoQuarries',
+          opacity: 0,
+        },
            {
           layer: 'Kerela_PAs_Text',
           opacity: 0,
@@ -1383,8 +1542,8 @@ export default {
           opacity: 1,
         },
         {
-          layer: 'Western Ghats Solid',
-          opacity: 0.25,
+          layer: 'Western Ghats Solid_Hatch',
+          opacity: 0.9,
         },
         {
           layer: 'kerala-line',
