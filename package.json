@@ -18,15 +18,14 @@
     "viewport-mercator-project": "6.1.1",
     "worker-loader": "^3.0.8"
   },
+  {
   "scripts": {
-    "build:tailwind": "tailwindcss build src/tailwind.css -o src/tailwind.output.css",
-    "prestart": "npm run build:tailwind",
-    "prebuild": "npm run build:tailwind",
-    "start": "react-scripts --openssl-legacy-provider start",
+    "build:tailwind": "node ./node_modules/.bin/tailwindcss build src/tailwind.css -o src/tailwind.output.css",
+    "prebuild": "node ./node_modules/.bin/tailwindcss build src/tailwind.css -o src/tailwind.output.css",
     "build": "react-scripts build",
-    "test": "react-scripts test",
-    "eject": "react-scripts eject"
-  },
+    "start": "node ./node_modules/.bin/tailwindcss build src/tailwind.css -o src/tailwind.output.css && react-scripts start"
+  }
+}
   "eslintConfig": {
     "extends": "react-app"
   },
