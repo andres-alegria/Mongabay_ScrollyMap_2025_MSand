@@ -37,7 +37,7 @@ export default {
  
   chapters: [
     
-    // chapter 0
+    // chapter 00
     {
       id: 'chapter 0',
       alignment: 'left',
