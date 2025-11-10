@@ -196,7 +196,7 @@ export default {
        legend: [
         {
           title: 'Western Ghats',
-          fromLayer: 'Western Ghats Line'
+          border: '#c48399',
         },
         {
           title: 'Kerala state',
